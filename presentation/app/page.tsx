@@ -1,7 +1,8 @@
+
 export default function Page() {
 
   return (
-
+    <div>
       <video
         src={"/loop.mp4"}
         autoPlay
@@ -12,11 +13,12 @@ export default function Page() {
         style={{
           position: "fixed",
           inset: 0,
-          width: "100vw",
-          height: "100vh",
-          objectFit: "cover",
+          width: "100%",
+          height: "100%",
+          objectFit: "contain",
+          backgroundColor: "#151515",
         }}
       />
-
+    </div>
   );
 }
