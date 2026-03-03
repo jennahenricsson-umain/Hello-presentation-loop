@@ -16,7 +16,7 @@ export default function Page() {
           bottom: 0,
           left: "50%",
           transform: "translateX(-50%)",
-          width: "90%",
+          width: "100%",
           height: "100%",
           objectFit: "contain",
           backgroundColor: "#151515",
