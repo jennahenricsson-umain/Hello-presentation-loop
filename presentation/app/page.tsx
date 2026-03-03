@@ -1,10 +1,22 @@
-import { AttractMode } from "./components/attract";
-
 export default function Page() {
 
   return (
-    <div>
-      <AttractMode idleMs={5000} />
-    </div>
+
+      <video
+        src={"/loop.mp4"}
+        autoPlay
+        muted
+        loop
+        playsInline
+        preload="auto"
+        style={{
+          position: "fixed",
+          inset: 0,
+          width: "100vw",
+          height: "100vh",
+          objectFit: "cover",
+        }}
+      />
+
   );
 }
